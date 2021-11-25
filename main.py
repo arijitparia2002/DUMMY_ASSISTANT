@@ -10,7 +10,7 @@ import datetime # date and time
 import speech_recognition as sr # speech from mic to text
 import smtplib #email function
 import pywhatkit #PyWhatKit is a Python Library for scheduling and sending WhatsApp messages with various other functions like playing a video on YouTube, Converting an image to ASCII art, Converting a string to an image with Hand Written Characters etc.
-from newsapi import NewsApiClient #news updates
+# from newsapi import NewsApiClient #news updates
 from wikipedia.wikipedia import languages, search # to send email
 from secret import senderemail,epwd # our module
 from email.message import EmailMessage, Message
@@ -162,7 +162,7 @@ def roll_die():
     print(f"You got : {rand}")
     speak(f"i rolled a die and you got {rand}")
 
-if __name__ == '__main__':
+def run_jarvis():
     #pass
     
     #wishme()

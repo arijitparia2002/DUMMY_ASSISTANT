@@ -50,7 +50,7 @@ class Ui_MainWindow(object):
         self.label_3.setGeometry(QtCore.QRect(210, 400, 35, 10))
         self.label_3.setObjectName("label_3")
         self.label_2 = QtWidgets.QLabel(self.centralwidget)
-        self.label_2.setGeometry(QtCore.QRect(325 , 400, 251, 71))
+        self.label_2.setGeometry(QtCore.QRect(330 , 400, 251, 71))
         self.label_2.setStyleSheet("\n"
 "color: rgb(0, 255, 255);\n"
 "font: 81 72pt \"Rockwell Extra Bold\";\n"
