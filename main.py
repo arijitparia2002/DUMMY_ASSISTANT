@@ -1,4 +1,3 @@
-#from udemy course
 # for more features -> https://www.geeksforgeeks.org/voice-assistant-using-python/
 
 from email import message
@@ -211,6 +210,14 @@ def run_jarvis():
                 except Exception as e:
                     print(e)
                     speak("unable to send the email")
+            
+            elif 'play music' in query or "play song" in query:
+                speak("Here you go with music")
+                # music_dir = "G:\\Song"
+                music_dir = "C:\\Users\\ariji\\Music\\songs"
+                songs = os.listdir(music_dir)
+                print(songs)   
+                random = os.startfile(os.path.join(music_dir, songs[1]))
 
             elif "wikipedia" in query: #wikipedia
                 try :
